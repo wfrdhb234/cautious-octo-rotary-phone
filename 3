@@ -1,0 +1,18 @@
+class Car
+    def initialize(make, model, year)
+        @make = make
+        @model = model
+        @year = year
+    end
+    
+    def start_engine
+        puts "Engine started."
+    end
+    
+    def stop_engine
+        puts "Engine stopped."
+    end
+end
+
+my_car = Car.new("Toyota", "Camry", 2022)
+my_car.start_engine
